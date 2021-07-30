@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "HaveIBeenPwnedCorrector",
+	"version": "1.0",
+	"description": "Correct HaveIBeenPwned alerts.",
+	"content_scripts": [
+		{
+			"matches": ["*://haveibeenpwned.com/*"],
+			"js": ["HaveIBeenPwnedCorrector.js"]
+		}
+	]
+}
+
+
